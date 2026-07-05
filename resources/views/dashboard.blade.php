@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard Pembeli — KicksStore</title>
+    <title>Dashboard Pembeli — GEOVANT_OFFICIAL</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,7 @@
     <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
         <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
             <a href="{{ route('home') }}" class="text-2xl font-black tracking-tighter uppercase">
-                KICKS<span class="text-blue-600">STORE.</span>
+                GEOVANT_<span class="text-blue-600">OFFICIAL.</span>
             </a>
             
             <div class="flex items-center gap-6">
@@ -27,7 +27,7 @@
                 
                 <form method="POST" action="{{ route('logout') }}">
                     @csrf
-                    <button type="submit" class="text-sm font-bold bg-red-50 text-red-600 border border-red-100 px-4 py-2 rounded-full hover:bg-red-600 hover:text-white transition cursor-pointer">
+                    <button type="submit" class="text-sm font-bold bg-red-5 text-red-600 border border-red-100 px-4 py-2 rounded-full hover:bg-red-600 hover:text-white transition cursor-pointer">
                         Keluar
                     </button>
                 </form>
@@ -140,7 +140,7 @@
 
     <footer class="bg-gray-950 text-gray-600 py-8 border-t border-gray-900 mt-20">
         <div class="max-w-7xl mx-auto px-6 text-center text-[11px] space-y-1">
-            <p class="font-bold text-gray-400 uppercase tracking-widest">KICKSSTORE © 2026</p>
+            <p class="font-bold text-gray-400 uppercase tracking-widest">GEOVANT_OFFICIAL © 2026</p>
             <p>Panel Member Pembeli Premium.</p>
         </div>
     </footer>

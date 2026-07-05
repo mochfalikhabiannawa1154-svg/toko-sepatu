@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Masuk Akun — KicksStore</title>
+    <title>Masuk Akun — GEOVANT_OFFICIAL</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +21,7 @@
         
         <div class="text-center space-y-2">
             <a href="{{ route('home') }}" class="text-2xl font-black tracking-tighter uppercase text-white">
-                KICKS<span class="text-blue-500">STORE.</span>
+                GEOVANT_<span class="text-blue-500">OFFICIAL.</span>
             </a>
             <h1 class="text-xl font-bold text-gray-200 tracking-tight pt-2">Selamat Datang Kembali</h1>
             <p class="text-xs text-gray-400 font-light">Masukkan detail akunmu untuk melanjutkan akses.</p>
@@ -49,7 +49,7 @@
                 <div class="relative">
                     <span class="absolute left-4 top-3.5 text-gray-500 text-sm">📧</span>
                     <input type="email" id="email" name="email" value="{{ old('email') }}" required autofocus placeholder="nama@email.com" 
-                        class="w-full bg-gray-950/60 border border-gray-800 rounded-xl pl-11 pr-4 py-3.5 text-sm text-white placeholder-gray-600 focus:outline-hidden focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all">
+                        class="w-full bg-gray-950/60 border border-gray-800 rounded-xl pl-11 pr-4 py-3.5 text-sm text-white placeholder-gray-600 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all">
                 </div>
             </div>
 
@@ -63,7 +63,7 @@
                 <div class="relative">
                     <span class="absolute left-4 top-3.5 text-gray-500 text-sm">🔒</span>
                     <input type="password" id="password" name="password" required placeholder="••••••••" 
-                        class="w-full bg-gray-950/60 border border-gray-800 rounded-xl pl-11 pr-4 py-3.5 text-sm text-white placeholder-gray-600 focus:outline-hidden focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all">
+                        class="w-full bg-gray-950/60 border border-gray-800 rounded-xl pl-11 pr-4 py-3.5 text-sm text-white placeholder-gray-600 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all">
                 </div>
             </div>
 

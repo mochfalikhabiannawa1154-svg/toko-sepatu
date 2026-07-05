@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KicksStore — Toko Sepatu Premium</title>
+    <title>GEOVANT_OFFICIAL — Toko Sepatu Premium</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,7 @@
     <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
         <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
             <a href="{{ route('home') }}" class="text-2xl font-black tracking-tighter uppercase">
-                KICKS<span class="text-blue-600">STORE.</span>
+                GEOVANT_<span class="text-blue-600">OFFICIAL.</span>
             </a>
             
             <div class="flex items-center gap-6">
@@ -123,7 +123,7 @@
 
     <footer class="bg-gray-950 text-gray-500 py-12 border-t border-gray-900">
         <div class="max-w-7xl mx-auto px-6 text-center text-xs space-y-2">
-            <p class="font-bold text-gray-300 uppercase tracking-widest">KICKSSTORE © 2026</p>
+            <p class="font-bold text-gray-300 uppercase tracking-widest">GEOVANT_OFFICIAL © 2026</p>
             <p>Dibuat dengan penuh dedikasi untuk penikmat kultur sneakers berkualitas.</p>
         </div>
     </footer>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Panel — KicksStore</title>
+    <title>Admin Panel — GEOVANT_OFFICIAL</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,7 @@
     <aside class="w-64 bg-gray-950 text-white p-6 flex flex-col justify-between shrink-0 border-r border-gray-900">
         <div class="space-y-8">
             <div class="text-xl font-black tracking-tighter uppercase px-2">
-                KICKS<span class="text-blue-500">PANEL.</span>
+                GEOVANT_<span class="text-blue-500">PANEL.</span>
             </div>
             
             <nav class="space-y-1.5">
@@ -46,7 +46,7 @@
         <div class="flex justify-between items-center bg-white border border-gray-100 p-6 rounded-2xl shadow-xs">
             <div>
                 <h1 class="text-2xl font-black tracking-tight uppercase text-gray-900">Dashboard Utama</h1>
-                <p class="text-gray-400 text-xs mt-0.5">Ringkasan performa dan pengelolaan data operasional toko.</p>
+                <p class="text-gray-400 text-xs mt-0.5">Ringkasan performa dan pengelolaan data operasional toko GEOVANT_OFFICIAL.</p>
             </div>
             <div class="flex items-center gap-3 bg-gray-50 px-4 py-2 rounded-xl border border-gray-100">
                 <span class="w-2.5 h-2.5 rounded-full bg-blue-500 inline-block animate-pulse"></span>
@@ -55,7 +55,6 @@
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            
             <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-xs hover:shadow-md transition flex items-center justify-between">
                 <div class="space-y-1">
                     <p class="text-xs font-bold text-gray-400 uppercase tracking-wider">Total Produk</p>
@@ -79,7 +78,6 @@
                 </div>
                 <div class="w-12 h-12 rounded-xl bg-purple-50 flex items-center justify-center text-xl">⚡</div>
             </div>
-
         </div>
 
         <div class="bg-gradient-to-br from-gray-900 to-blue-950 rounded-2xl p-6 md:p-8 text-white flex flex-col md:flex-row justify-between items-center gap-6 shadow-sm">
