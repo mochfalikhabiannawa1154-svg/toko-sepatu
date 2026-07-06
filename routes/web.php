@@ -24,6 +24,8 @@ Route::get('/sepatu/{id}', [ShoeController::class, 'show'])->name('shoe.show');
 // Keranjang (Cart)
 Route::get('/cart', [CartController::class, 'index'])->name('cart.index');
 Route::post('/cart/add/{id}', [CartController::class, 'add'])->name('cart.add');
+Route::post('/cart/remove/{id}', [CartController::class, 'remove'])->name('cart.remove');
+Route::delete('/cart/delete/{id}', [CartController::class, 'destroy'])->name('cart.delete');
 
 
 /*
